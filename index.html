@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JSDrums</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div id="title">
+    <img src="images/js.svg" id="logo" height="50px"></img>
+    <h1>Drums</h1>
+  </div>
+
+  <div class="keys">
+    <div data-key="KeyA" class="key snare">
+      <kbd>A</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="KeyS" class="key">
+      <kbd>S</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="KeyD" class="key">
+      <kbd>D</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="KeyF" class="key">
+      <kbd>F</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="KeyG" class="key">
+      <kbd>G</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="KeyH" class="key">
+      <kbd>H</kbd>
+      <span class="sound"></span>
+    </div>
+  </div>
+
+  <audio data-key="KeyA" src="sounds/snare.wav"></audio>
+  <audio data-key="KeyS" src="sounds/hihat.wav"></audio>
+  <audio data-key="KeyD" src="sounds/kick.wav"></audio>
+  <audio data-key="KeyF" src="sounds/openhat.wav"></audio>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
