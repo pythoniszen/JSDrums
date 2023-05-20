@@ -44,6 +44,9 @@ h1 {
   transition: all 0.09s ease;
   min-height: 60px;
   min-width: 60px;
+  user-select: none;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 .playing {
@@ -56,14 +59,11 @@ h1 {
 
 #title {
   display: flex;
+  user-select: none;
 }
 
 #logo {
   padding-bottom: 20px;
   flex: 1;
-}
-
-kbd {
-  font-weight: bold;
-  font-size: 1.8rem;
+  user-select: none;
 }
